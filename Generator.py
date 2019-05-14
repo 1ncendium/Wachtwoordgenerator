@@ -10,10 +10,10 @@ nummer = 0
 aantal = 0
 wachtwoord = []
 
-length = input("Welkom terug, hoelang wil je dat je wachtwoord wordt? (standaard is 20)\n")
-length = 20 if length is '' else int(length)
+lengte = input("Welkom terug, hoelang wil je dat je wachtwoord wordt? (standaard is 20)\n")
+lengte = 20 if lengte is '' else int(lengte)
 
-while aantal < length:
+while aantal < lengte:
     rand = random.randint (0,3)
     if rand == 0:
         kleine += 1
@@ -45,7 +45,7 @@ wachtwoord = "".join([chr(c) for c in wachtwoord])
 
 pyperclip.copy(wachtwoord)
 
-print ("Je geweldige nieuwe wachtwoord van %s karakters lang is: \n" % length)
+print ("Je geweldige nieuwe wachtwoord van %s karakters lang is: \n" % lengte)
 
 print('✈✈✈✈✈')
 print(wachtwoord)
