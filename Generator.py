@@ -10,7 +10,7 @@ nummer = 0
 aantal = 0
 wachtwoord = []
 
-lengte = input("Welkom terug, hoelang wil je dat je wachtwoord wordt? (standaard is 20)\n")
+lengte = input("Welkom, hoelang wil je dat je wachtwoord wordt? (standaard is 20)\n")
 lengte = 20 if lengte is '' else int(lengte)
 
 while aantal < lengte:
