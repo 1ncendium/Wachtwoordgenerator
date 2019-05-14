@@ -10,7 +10,7 @@ nummer = 0
 aantal = 0
 wachtwoord = []
 
-length = input("Welkom terug Remco, hoelang wil je dat je wachtwoord wordt? Of toch maar weer bij 20 houden?\n")
+length = input("Welkom terug, hoelang wil je dat je wachtwoord wordt? (standaard is 20)\n")
 length = 20 if length is '' else int(length)
 
 while aantal < length:
@@ -52,4 +52,4 @@ print(wachtwoord)
 print('✈✈✈✈✈')
 
 print ("\nUitstekende keuze, je wachtwoord bevat",kleine,"kleine letters,",grote,"grote letters ,",nummer,"nummers en",symbool,"symbolen")
-input('Je nieuwe wachtwoord is gekopieerd naar u clipboard.')
+input('Je nieuwe wachtwoord is gekopieerd naar het clipboard.')
