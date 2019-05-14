@@ -1,1 +1,14 @@
+                                                    < Wachtwoordgenerator >
+
 Wanneer je gebruik gaat maken van deze tool, kan je pyperclip gebruiken om automatisch je gegenereerde wachtwoord te kopiëren.
+
+Compatible met :
+  Windows: https://m.wikihow.com/Use-Windows-Command-Prompt-to-Run-a-Python-File
+  
+  macOS: https://www.maketecheasier.com/run-python-script-in-mac/
+  
+  Linux: (meeste distrubuties hebben python3 ingebouwd wanneer deze geïnstalleerd wordt) zo niet:
+    $ sudo apt-get update
+    $ sudo apt-get install python3.7
+    
+ --------------------------------------------------------------------------------------------------------------------------------
